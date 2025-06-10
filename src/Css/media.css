@@ -1,0 +1,898 @@
+@media screen and (max-width: 1364px) {
+    .careerBannerInfo {
+        max-width: 700px;
+    }
+
+    .careerItemText {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 78%;
+    }
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1300px){
+    .w-33 {
+        min-width: 500px;
+    }
+
+    .w-17 {
+        min-width: 250px;
+    }
+
+    .careerBannerInfo {
+        max-height: 229px;
+    }
+
+    .fermazzaBG .careerBannerInfo {
+        max-height: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .searchMap {
+        max-width: 100%;
+        width: 84.5%;
+        margin: auto;
+    }
+
+    .searchMap .relative {
+        max-width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .column {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .popup.show {
+        display: block;
+        width: 92%;
+        height: 100vh;
+        top: 74px;
+        left: 0;
+        transform: translate(0);
+        background: #F7F7F7;
+        padding: 30% 4%;
+    }
+
+    .popup.show .closePopup {
+        display: none;
+    }
+
+    .success p {
+        width: auto;
+    }
+
+    .tabs__caption {
+        flex-direction: column;
+        height: 41px;
+        overflow: hidden;
+        border: 1px solid #4B2613;
+        box-sizing: border-box;
+        border-radius: 50px;
+        background-image: url('../images/select.svg');
+        background-position-x: 97%;
+        background-position-y: 19px;
+        background-repeat: no-repeat;
+    }
+
+    .tabs__caption.open {
+        height: 100%;
+        border-radius: 25px;
+    }
+
+    .tabs__caption li,
+    .tabs__caption li.active {
+        border: none;
+        color: #4B2613;
+    }
+
+    .tabs__caption li {
+        order: 1;
+    }
+
+    .tabs__caption li.active {
+        order: 0;
+    }
+}
+
+@media screen and (max-width: 1005px) {
+    .column {
+        margin-right: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .careerBannerInfo {
+        max-width: 550px;
+    }
+
+    .footer > .flex a {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footerLogo {
+        margin: auto;
+    }
+
+    .footer > .flex {
+        justify-content: center;
+    }
+
+    .copyright {
+        display: none;
+    }
+
+    .copyrightMob {
+        display: block;
+        text-align: center;
+    }
+
+    .footerFlex {
+        align-items: baseline;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .footerTitle {
+        text-align: center;
+    }
+
+    .footer > .flex div + div .flex {
+        justify-content: center;
+    }
+
+    .footer > .flex div + div > .flex {
+        margin-top: 40px;
+    }
+
+    .footer > .flex div + div > .flex + .flex {
+        margin-top: 0;
+    }
+
+    .footerWidthText {
+        max-width: 213px;
+    }
+
+    .footer {
+        padding: 50px 30px 30px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .advantage h2 {
+        margin: 0 40px;
+    }
+
+    .prevPage svg path {
+        fill: #fff;
+        stroke: #fff;
+    }
+
+    .container {
+        margin: 0;
+    }
+
+    .prevPage {
+        width: 50px;
+        height: 50px;
+        background-color: #4B2613;
+        border-radius: 50%;
+        left: 20px;
+        top: 124px;
+        background-position: center;
+        background-image: url("../imaRectangle-min.png");
+        background-size: auto;
+        background-repeat: no-repeat;
+        padding: 0;
+    }
+
+    .topBlockGallery .prevPage {
+        top: 25px;
+    }
+
+    .mobWidth {
+        width: 100%;
+    }
+
+    .inputBlock {
+        flex-direction: column;
+    }
+
+    .sticky-header,
+    .menu,
+    .header {
+        padding: 18px;
+    }
+
+    .mobRow {
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap!important;
+    }
+
+    .inputBlock .no-wrap {
+        flex-wrap: nowrap;
+    }
+
+    .inputBlock .no-wrap {
+        width: 50%;
+    }
+
+    .mobRow .label {
+        margin-bottom: 0;
+    }
+
+    .mobRow p {
+        height: 25px;
+    }
+
+    .inputBlock .no-wrap.moreSelect {
+        width: 100%;
+    }
+
+    .btn--browse {
+        width: 99%;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .f-input {
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .inputBlock .no-wrap .input {
+        max-width: inherit;
+    }
+
+    .label {
+        max-width: 100%;
+        min-width: 10px;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .formContainer {
+        margin: 0 12px;
+    }
+
+    .formContainer p.textCenter {
+        margin: 75px 20px 50px;
+    }
+
+    .prevPage img {
+        display: none;
+    }
+
+    .formBlock {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #mapMob,
+    .flexItemCarousel,
+    .carouselBottom,
+    .mobSoc,
+    .mobImg,
+    .mobContent,
+    .centerSlider {
+        display: block;
+    }
+
+    .IMAGES {
+        max-width: 100%;
+    }
+
+    .IMAGES .alcoTitle {
+        width: 150px;
+        height: 150px;
+    }
+
+    .flexGallery div {
+        height: 350px;
+    }
+
+    .topBlockGallery {
+        height: auto;
+        margin-bottom: 75px;
+    }
+
+    .topBlockGallery h1 {
+        margin: 50px 0;
+    }
+
+    .topBlockGallery .prevPage {
+        top: 100px;
+    }
+
+    .careerBG {
+        background-image: none!important;
+    }
+
+    .excursion h3 {
+        margin: 20px 20px 50px;
+    }
+
+    .cuisineBG .careerBannerInfo {
+        padding-bottom: 0;
+    }
+
+    .fermazzaBlock .line {
+        justify-content: center;
+    }
+
+    .m-100 {
+        margin: 50px auto;
+    }
+
+    .cuisineTitle,
+    .chocolateTitle {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cuisineTab {
+        flex-direction: column;
+    }
+
+    .statistics .no-wrap {
+        display: flex;
+        margin-bottom: 50px;
+        justify-content: space-between;
+    }
+
+    .statistics {
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+
+    .statistics p {
+        font-size: 1.14em;
+        min-width: 160px;
+    }
+
+    .statistics .no-wrap.center {
+        justify-content: center;
+    }
+
+    .flex-reverse .fermazzaInfoBlock {
+        margin: 0;
+    }
+
+    .cakeHouseBG .careerBannerInfo {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .storeInfoBlock span {
+        max-width: 100%;
+    }
+
+    .storeMap {
+        width: 100%;
+    }
+
+    .storeBtn {
+        padding: 19px 25px;
+    }
+
+    .searchMap input {
+        text-align: center;
+    }
+
+    .storeInfoBlock h1 {
+        font-size: 1.8em;
+    }
+
+    .storeInfoBlock p {
+        font-size: 1em;
+    }
+
+    .footerLogoHeight {
+        margin-top: 10px;
+    }
+
+    .footer {
+        background-image: url("../images/footer-bg-min.png");
+    }
+
+    .footerTitle {
+        margin-top: 50px;
+    }
+
+    .searchMap h2 {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .btnSearch {
+        position: relative;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .imageMargin img.mobContent + img.mobContent {
+        margin-top: -1px;
+    }
+
+    .btnQuestionnaire {
+        padding: 18.5px 20px;
+    }
+
+    .fermazzaBlock {
+        margin: 0 20px 80px;
+        flex-direction: column-reverse;
+    }
+
+    .alcoholBlock {
+        flex-direction: column;
+    }
+
+    .textmobMargin {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .fermazzaBlock img,
+    .fermazzaBlock .alcoImg {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .padding-flexItem {
+        padding: 30px 17px 20px;
+        background-image: none;
+        width: 100%;
+    }
+
+    .padding-flexItem img {
+        max-height: 142px;
+    }
+
+    .mobContent.fermazzaColumn .flex {
+        flex-wrap: nowrap;
+    }
+
+    .fermazzaColumn {
+        margin: 50px 0;
+    }
+    .fermazzaInfoBlock {
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .discriptionText {
+        max-width: 88%;
+    }
+
+    .marginCakes p {
+        margin-top: 0;
+    }
+
+    .bg-image {
+        background-size: cover;
+    }
+
+    .marginCakes p + p {
+        margin-bottom: 0;
+    }
+
+    .cakesItem-text {
+        min-height: 100px;
+    }
+
+    .cakesBlock {
+        padding: 0 20px;
+    }
+
+    .cakesInfoItems {
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-bottom: 50px;
+    }
+
+    .cakesBlock img {
+        min-height: 335px;
+    }
+
+    .headerLang span {
+        font-size: 1em;
+    }
+
+    .bg-color {
+        padding: 50px 40px;
+    }
+
+    .cake-bg-color {
+        padding: 70px 18px;
+    }
+
+    .cake-bg-color .bg-image {
+        max-width: 300px;
+        height: 300px;
+    }
+
+    .cake-bg-color .fs-26 {
+        font-size: 1.4em;
+    }
+
+    .marginText {
+        margin: 42px 0;
+        font-size: 1.4em;
+    }
+
+    .careerBG {
+        overflow: hidden;
+        height: auto;
+    }
+
+    .mob-width label {
+        max-width: 200px;
+    }
+
+    .mob-width {
+        justify-content: space-between;
+    }
+
+    .containerBannerInfo {
+        max-width: 100%;
+        padding: 89px 0 50px;
+        left: 0;
+        top: 0;
+        transform: translate(0);
+        background-image: url("../images/Rectangle-min.png");
+        background-size: cover;
+        position: relative;
+    }
+
+    .careerBannerInfo,
+    .fermazzaBG .careerBannerInfo {
+        padding: 0;
+        background: none;
+        margin: auto;
+        max-height: 100%;
+    }
+
+    .advantageItem {
+        max-width: 100%;
+    }
+
+    .flex {
+        flex-wrap: wrap;
+    }
+
+    .inputBlock .no-wrap.moreSelect {
+        flex-wrap: wrap;
+    }
+
+    .moreSelect .btn-more {
+        height: 38px;
+        position: absolute;
+        bottom: 10px;
+        right: 0;
+    }
+
+    .banner .link {
+        display: none;
+    }
+
+    .mobWidthSVG {
+        width: 276px;
+    }
+
+    .langInput {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .langInput + .langInput {
+        width: inherit;
+        margin-right: 60px;
+        min-width: 10px;
+    }
+
+    .careerBannerText {
+        margin: 0 37px;
+    }
+    .fs-40 {
+        font-size: 26px;
+    }
+
+    .flexCareerItem {
+        max-width: 100%;
+        height: 600px;
+    }
+
+    .advantage .advantageTitle {
+        font-size: 20px;
+        text-align: left;
+        margin-bottom: 60px;
+    }
+
+    .mt-50 {
+        margin-bottom: 50px;
+    }
+
+    .advantageItem {
+        margin-bottom: 40px;
+    }
+
+    .advantage h2 {
+        flex-wrap: nowrap;
+    }
+
+    .img5 {
+        min-width: 72px;
+        width: 72px;
+    }
+
+    .activeMenu > .flex {
+        justify-content: space-between;
+    }
+
+    .activeMenu > .flex span {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: #F6D119;
+        color: #4B2613;
+    }
+
+    .w-17,
+    .w-33 {
+        width: 250px!important;
+    }
+
+    .menuLogo {
+        margin: 0;
+    }
+
+    .btnMenu,
+    .headerLang button{
+        background: #F6D119;
+        border: none;
+        width: 50px;
+        height: 50px;
+        color: #4B2613;
+        border-radius: 50%;
+        position: relative;
+    }
+
+    .menu .headerLang button {
+        margin-left: 0;
+    }
+
+    .menu .headerLang {
+        display: block;
+    }
+
+    .menu .other-languages.show {
+        flex-direction: column;
+        right: 0;
+    }
+
+    .other-languages {
+        right: -40px;
+        top: 50px;
+    }
+
+    .other-languages button {
+        margin-top: 10px;
+        margin-left: 0;
+        background: white;
+    }
+
+    .other-languages button:hover {
+        background: #F6D119;
+    }
+
+    .btnMenu.close img {
+        width: 16px;
+        object-fit: contain;
+    }
+
+    .btnMenu svg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .btnMenu svg path {
+        fill: #4B2613;
+        stroke: #4B2613;
+    }
+
+    .headerLang span {
+        color: #4B2613;
+    }
+
+    .header .flex + .flex {
+        display: none;
+    }
+
+    .chocoLogo img,
+    .teaLogo img {
+        max-width: 120px;
+        max-height: initial;
+        height: auto;
+    }
+
+    .header .flex {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .alcoTitle.fs-20 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .teaLogo .last-logo {
+        max-width: 120px;
+    }
+
+    #map,
+    .descBlock {
+        display: none;
+    }
+
+    .searchMap {
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .newItem {
+        width: 49%;
+    }
+
+    .newItem:nth-child(odd) {
+        margin-left: 0;
+        margin-right: 3px;
+    }
+
+    .newItem:nth-child(even) {
+        margin-right: 0;
+        margin-left: 3px;
+    }
+
+    .newItemBlock {
+        justify-content: space-between;
+    }
+
+    .footerFlex {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .column {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footerStore {
+        width: 136px;
+    }
+
+    .footerStore svg {
+        width: auto;
+    }
+
+    .footerStore + .footerStore {
+        margin-right: 0;
+    }
+
+    .footerWidthText {
+        max-width: 192px;
+    }
+
+    .imgAzza {
+        margin-right: 8px;
+    }
+
+    .flexItem {
+        background-size: contain;
+    }
+
+    .bannerTitle {
+        background: rgba(75, 38, 19, 0.01);
+        backdrop-filter: blur(30px);
+        padding: 30px;
+        width: 330px;
+    }
+
+    .storeBlock {
+        flex-direction: column-reverse;
+        margin: 75px 0 0;
+    }
+
+    .storeInfoBlock {
+        max-width: 100%;
+        margin: 0 20px;
+    }
+
+    .storeSlider .textCenter {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .storeSlider {
+        margin: 50px 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .letterContainer {
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+    }
+
+    .mobMargin {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .flexGallery div {
+        height: 262px;
+    }
+
+    .circleFace {
+        width: 150px;
+        height: 150px;
+    }
+
+    .circleFace:before {
+        width: 160px;
+        height: 160px;
+    }
+
+    .mainInfoFooter {
+        text-align: center;
+    }
+
+    .mainInfoFooter div {
+        width: 100%;
+    }
+
+    .letterContainer .formBlock {
+        padding: 40px 50px;
+    }
+}
+
+
+@media screen and (max-width: 460px) {
+    .bannerTitle {
+        width: 263px;
+        padding: 15px;
+    }
+
+    .flexGallery div {
+        height: 150px;
+    }
+
+    .menu {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 352px) {
+    .footerStore {
+        width: 125px;
+    }
+}
