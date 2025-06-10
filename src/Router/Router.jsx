@@ -3,7 +3,8 @@ import { Route, Routes } from 'react-router-dom'
 import Layout from '../layout/Layout'
 import Home from '../components/Main/Home'
 import Career from '../components/Page/Career'
-import Cakes from '../components/Page/cakes'
+import Cake from '../components/Page/Cake'
+
 import AboutUs from '../components/Page/AboutUs'
 import Fermezza from '../components/Page/Fermezza'
 import Store from '../components/Page/Store'
@@ -21,7 +22,7 @@ function Router() {
                 <Route path='/' element={<Layout />} >
                 <Route path='/' element={<Home/>} />
                <Route path='/career' element ={<Career/>}/>
-               <Route path='/cakes' element ={<Cakes/>}/>
+               <Route path='/cakes' element ={<Cake/>}/>
                <Route path='/about' element ={<AboutUs/>}/>
                <Route path='/FERMAZZA' element ={<Fermezza/>}/>
                <Route path='/ourstores' element ={<Store/>}/>

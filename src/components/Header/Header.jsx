@@ -83,9 +83,7 @@ function Header() {
                     <Link to={'/nationalcuisine'}>печенье / эклеры / национальная кухня</Link>
                 </li>
                
-                <li className="subItem uppercase">
-                    <a href="#">выпечка</a>
-                </li>
+                
                 <li className="subItem uppercase">
                  <Link to={'/tea'}>чай</Link>
                 </li>
