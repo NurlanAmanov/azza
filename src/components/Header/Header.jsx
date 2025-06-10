@@ -92,12 +92,7 @@ function Header() {
                 <li className="subItem uppercase">
 <Link to={'/chocolate'}>шоколад</Link>
                 </li>
-                <li className="subItem uppercase">
-                    <a href="https://mavinxukr.github.io/azza.github.io/alcohol/">Алкогольные напитки</a>
-                </li>
-                <li className="subItem uppercase">
-                    <a href="#">молочная продукция FERMAZZA</a>
-                </li>
+            
             </ul>
         </li>
 
