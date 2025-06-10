@@ -12,7 +12,7 @@ import cuisine2 from '../../images/cuisine2-min.png';
 import cuisine3 from '../../images/cuisine3-min.png';
 import nImage from '../../images/N-Image-min.png';
 
-function Kurabiye() {
+function Nationalcuisine() {
   return (
     <>
       <div
@@ -202,4 +202,4 @@ function Kurabiye() {
   );
 }
 
-export default Kurabiye;
+export default Nationalcuisine;

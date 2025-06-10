@@ -1,6 +1,4 @@
-import React from 'react';
-
-// Şəkilləri import edirik
+import React from 'react'
 import cakebanner from '../../images/cake-banner-mob-min.png';
 import cake1 from '../../images/cake-1-min.png';
 import cake2 from '../../images/cake-2-min.png';
@@ -14,12 +12,10 @@ import cakeSlider2 from '../../images/cake-slider2-min.png';
 import cakeSlider3 from '../../images/cake-slider3-min.png';
 import cakeSlider4 from '../../images/cake-slider4-min.png';
 import cakeSlider from '../../images/cake-slider-min.png';
-
-function Cake() {
-  const cakeImage = "../../images/cake-banner-min.png"; // Şəkil URL-nizi burada təyin edin
-
+function Kurabiye() {
+    const cakeImage = "../../images/cake-banner-min.png"; // Şəkil URL-nizi burada təyin edin
   return (
-    <>
+       <>
       <div className="careerBG cakesBG" style={{ backgroundImage: `url(${cakeImage})` }}>
         <div className="containerBannerInfo">
           <div className="careerBannerInfo textCenter">
@@ -218,7 +214,7 @@ function Cake() {
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default Cake
+export default Kurabiye
