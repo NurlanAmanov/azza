@@ -9,7 +9,7 @@ import Distribution from '../components/Page/Distribution'
 import Tea from '../components/Page/Tea'
 import Chocolate from '../components/Page/Chocolate'
 import Nationalcuisine from '../components/Page/Nationalcuisine'
-
+import Cakes from './components/Page/Cakes'
 
 
 
@@ -22,7 +22,7 @@ function Router() {
                 <Route path='/' element={<Layout />} >
                 <Route path='/' element={<Home/>} />
                <Route path='/career' element ={<Career/>}/>
-       
+               <Route path='/cakes' element ={<Cakes/>}/>
                <Route path='/about' element ={<AboutUs/>}/>
                <Route path='/FERMAZZA' element ={<Fermezza/>}/>
                <Route path='/ourstores' element ={<Store/>}/>
