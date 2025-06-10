@@ -12,7 +12,7 @@ import cakeSlider2 from '../../images/cake-slider2-min.png';
 import cakeSlider3 from '../../images/cake-slider3-min.png';
 import cakeSlider4 from '../../images/cake-slider4-min.png';
 import cakeSlider from '../../images/cake-slider-min.png';
-function Kurabiye() {
+function Cakes() {
     const cakeImage = "../../images/cake-banner-min.png"; // Şəkil URL-nizi burada təyin edin
   return (
        <>
@@ -217,4 +217,4 @@ function Kurabiye() {
   )
 }
 
-export default Kurabiye
+export default Cakes

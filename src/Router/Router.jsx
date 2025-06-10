@@ -1,4 +1,3 @@
-import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Layout from '../layout/Layout'
 import Home from '../components/Main/Home'
@@ -10,7 +9,9 @@ import Distribution from '../components/Page/Distribution'
 import Tea from '../components/Page/Tea'
 import Chocolate from '../components/Page/Chocolate'
 import Nationalcuisine from '../components/Page/Nationalcuisine'
-import Kurabiye from '../components/Page/Kurabiye'
+import Cakes from '../components/Page/cakes'
+
+
 
 
 
@@ -21,7 +22,7 @@ function Router() {
                 <Route path='/' element={<Layout />} >
                 <Route path='/' element={<Home/>} />
                <Route path='/career' element ={<Career/>}/>
-               <Route path='/cakes' element ={<Kurabiye/>}/>
+               <Route path='/cakes' element ={<Cakes/>}/>
                <Route path='/about' element ={<AboutUs/>}/>
                <Route path='/FERMAZZA' element ={<Fermezza/>}/>
                <Route path='/ourstores' element ={<Store/>}/>
