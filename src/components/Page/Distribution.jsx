@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Şəkilləri import edirik
-import distributionBG from '../../images/distribution-min.png';
+
 import distributionMob from '../../images/distributionMob-min.png';
 import darkImg from '../../images/dark-min.png';
 import distributionImg from '../../images/distributionImg-min.png';
@@ -17,7 +17,7 @@ function Distribution() {
     <>
       <div
         className="careerBG distributionBG"
-        style={{ backgroundImage: `url(${distributionBG})` }}
+        // style={{ backgroundImage: `url(${distributionBG})` }}
       >
         <div className="containerBannerInfo">
           <div className="careerBannerInfo textCenter">
