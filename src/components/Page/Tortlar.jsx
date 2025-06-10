@@ -12,8 +12,8 @@ import cakeSlider2 from '../../images/cake-slider2-min.png';
 import cakeSlider3 from '../../images/cake-slider3-min.png';
 import cakeSlider4 from '../../images/cake-slider4-min.png';
 import cakeSlider from '../../images/cake-slider-min.png';
-function Cakes() {
-    const cakeImage = "../../images/cake-banner-min.png"; // Şəkil URL-nizi burada təyin edin
+function Tortlar() {
+  const cakeImage = "../../images/cake-banner-min.png"; // Şəkil URL-nizi burada təyin edin
   return (
        <>
       <div className="careerBG cakesBG" style={{ backgroundImage: `url(${cakeImage})` }}>
@@ -217,4 +217,4 @@ function Cakes() {
   )
 }
 
-export default Cakes
+export default Tortlar
