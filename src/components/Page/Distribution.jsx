@@ -4,7 +4,7 @@ import React from 'react';
 import distributionBG from '../../images/distribution-min.png';
 import distributionMob from '../../images/distributionMob-min.png';
 import darkImg from '../../images/dark-min.png';
-import distributionImg from '../../images/DISTRIBUTION-min.png';
+import distributionImg from '../../images/distributionImg-min.png';
 import mobBg from '../../images/mob-bg-min.png';
 import mobBg1 from '../../images/mob-bg-1-min.png';
 import gImage from '../../images/G-Image-min.png';
