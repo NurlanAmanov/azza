@@ -188,14 +188,16 @@ function Kurabiye() {
           </div>
         </div>
       </div>
-      <div className="cuisineTab m-100 flex">
-        <a href="#" className="uppercase bold fs-12 mainColor">торты</a>
-        <a href="#" className="uppercase bold fs-12 mainColor activeTab">печенье / эклеры / национальная кухня</a>
-        <a href="#" className="uppercase bold fs-12 mainColor">пироги/рулеты</a>
-        <a href="#" className="uppercase bold fs-12 mainColor">выпечка</a>
-       
-        <a href="#" className="uppercase bold fs-12 mainColor">молочная продукция FERMAZZA</a>
-      </div>
+     <div className="cuisineTab m-100 flex">
+  <Link to="/cakes" className="uppercase bold fs-12 mainColor">торты</Link>
+  <Link to="/nationalcuisine" className="uppercase bold fs-12 mainColor">печенье / эклеры / национальная кухня</Link>
+  <Link to="/pies" className="uppercase bold fs-12 mainColor">пироги/рулеты</Link>
+  <Link to="/bakery" className="uppercase bold fs-12 mainColor">выпечка</Link>
+  <Link to="/tea" className="uppercase bold fs-12 mainColor">чай</Link>
+  <Link to="/chocolate" className="uppercase bold fs-12 mainColor">шоколад</Link>
+  <Link to="/alcohol" className="uppercase bold fs-12 mainColor activeTab">алкоголь</Link>
+  <Link to="/fermazza" className="uppercase bold fs-12 mainColor">молочная продукция FERMAZZA</Link>
+</div>
     </>
   );
 }
