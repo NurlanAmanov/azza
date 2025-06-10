@@ -8,6 +8,8 @@ import AboutUs from '../components/Page/AboutUs'
 import Fermezza from '../components/Page/Fermezza'
 import Store from '../components/Page/Store'
 import Distribution from '../components/Page/Distribution'
+import Kurabiye from '../components/Page/Nationalcuisine'
+
 
 
 function Router() {
@@ -22,6 +24,7 @@ function Router() {
                <Route path='/FERMAZZA' element ={<Fermezza/>}/>
                <Route path='/ourstores' element ={<Store/>}/>
                <Route path='/distribution' element ={<Distribution/>}/>
+               <Route path='/nationalcuisine' element ={<Kurabiye/>}/>
         
                 </Route>
             </Routes>

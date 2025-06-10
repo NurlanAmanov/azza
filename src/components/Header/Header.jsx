@@ -80,7 +80,7 @@ function Header() {
                   <Link to={'/cakes'}>торты</Link>
                 </li>
                 <li className="subItem uppercase">
-                    <a href="https://mavinxukr.github.io/azza.github.io/nationalcuisine/">печенье / эклеры / национальная кухня</a>
+                    <Link to={'/nationalcuisine'}>печенье / эклеры / национальная кухня</Link>
                 </li>
                 <li className="subItem uppercase">
                     <a href="#">пироги/рулеты</a>
