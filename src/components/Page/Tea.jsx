@@ -1,19 +1,22 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-// Şəkilləri import edirik
-import teaBanner from '../../images/teaBanner-min.png';
-import teaBannerMob from '../../images/teaBannerMob-min.png';
-import t from '../../images/t.png';
-import t1 from '../../images/t1.png';
-import t2 from '../../images/t2.png';
-import t3 from '../../images/t3.png';
-import tl from '../../images/tl.png';
-import tl1 from '../../images/tl1.png';
-import tl2 from '../../images/tl2.png';
-import tl3 from '../../images/tl3.png';
-import vectorB from '../../images/Vector-b.png';
+
+
 
 function Tea() {
+
+  const teaBanner = "https://mavinxukr.github.io/azza.github.io/images/teaBanner-min.png";
+const teaBannerMob = "https://mavinxukr.github.io/azza.github.io/images/teaBannerMob-min.png";
+const t = "https://mavinxukr.github.io/azza.github.io/images/t.png";
+const t1 = "https://mavinxukr.github.io/azza.github.io/images/t1.png";
+const t2 = "https://mavinxukr.github.io/azza.github.io/images/t2.png";
+const t3 = "https://mavinxukr.github.io/azza.github.io/images/t3.png";
+const tl = "https://mavinxukr.github.io/azza.github.io/images/tl.png";
+const tl1 = "https://mavinxukr.github.io/azza.github.io/images/tl1.png";
+const tl2 = "https://mavinxukr.github.io/azza.github.io/images/tl2.png";
+const tl3 = "https://mavinxukr.github.io/azza.github.io/images/tl3.png";
+const vectorB = "https://mavinxukr.github.io/azza.github.io/images/Vector-b.png";
   return (
     <>
       <div className="careerBG teaBG" style={{ backgroundImage: `url(${teaBanner})` }}>

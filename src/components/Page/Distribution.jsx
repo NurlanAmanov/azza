@@ -2,17 +2,20 @@ import React from 'react';
 
 // Şəkilləri import edirik
 
-import distributionMob from '../../images/distributionMob-min.png';
-import darkImg from '../../images/dark-min.png';
-import distributionImg from '../../images/distributionImg-min.png';
-import mobBg from '../../images/mob-bg-min.png';
-import mobBg1 from '../../images/mob-bg-1-min.png';
-import gImage from '../../images/G-Image-min.png';
-import gImage1 from '../../images/G-Image (1)-min.png';
-import gImage3 from '../../images/G-Image (3)-min.png';
-import imageCarousel from '../../images/ImageCarousel-min.png';
+
 
 function Distribution() {
+
+  const distributionMob = "https://mavinxukr.github.io/azza.github.io/images/distributionMob-min.png";
+const darkImg = "https://mavinxukr.github.io/azza.github.io/images/dark-min.png";
+const distributionImg = "https://mavinxukr.github.io/azza.github.io/images/distributionImg-min.png";
+const mobBg = "https://mavinxukr.github.io/azza.github.io/images/mob-bg-min.png";
+const mobBg1 = "https://mavinxukr.github.io/azza.github.io/images/mob-bg-1-min.png";
+const gImage = "https://mavinxukr.github.io/azza.github.io/images/G-Image-min.png";
+const gImage1 = "https://mavinxukr.github.io/azza.github.io/images/G-Image (1)-min.png";
+const gImage3 = "https://mavinxukr.github.io/azza.github.io/images/G-Image (3)-min.png";
+const imageCarousel = "https://mavinxukr.github.io/azza.github.io/images/ImageCarousel-min.png";
+
   return (
     <>
       <div

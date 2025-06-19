@@ -1,22 +1,25 @@
 import React from 'react'
-import cakebanner from '../../images/cake-banner-mob-min.png';
-import cake1 from '../../images/cake-1-min.png';
-import cake2 from '../../images/cake-2-min.png';
-import cake3 from '../../images/cake-3-min.png';
-import cake4 from '../../images/cake-4-min.png';
-import cake5 from '../../images/cake-5-min.png';
-import cake6 from '../../images/cake-6-min.png';
-import cake7 from '../../images/cake-7-min.png';
-import cakeSlider1 from '../../images/cake-slider1-min.png';
-import cakeSlider2 from '../../images/cake-slider2-min.png';
-import cakeSlider3 from '../../images/cake-slider3-min.png';
-import cakeSlider4 from '../../images/cake-slider4-min.png';
-import cakeSlider from '../../images/cake-slider-min.png';
+
 function Tortlar() {
-  const cakeImage = "../../images/cake-banner-min.png"; // Şəkil URL-nizi burada təyin edin
+const cakebanner = "https://mavinxukr.github.io/azza.github.io/images/cake-banner-mob-min.png";
+const cake1 = "https://mavinxukr.github.io/azza.github.io/images/cake-1-min.png";
+const cake2 = "https://mavinxukr.github.io/azza.github.io/images/cake-2-min.png";
+const cake3 = "https://mavinxukr.github.io/azza.github.io/images/cake-3-min.png";
+const cake4 = "https://mavinxukr.github.io/azza.github.io/images/cake-4-min.png";
+const cake5 = "https://mavinxukr.github.io/azza.github.io/images/cake-5-min.png";
+const cake6 = "https://mavinxukr.github.io/azza.github.io/images/cake-6-min.png";
+const cake7 = "https://mavinxukr.github.io/azza.github.io/images/cake-7-min.png";
+const cakeSlider1 = "https://mavinxukr.github.io/azza.github.io/images/cake-slider1-min.png";
+const cakeSlider2 = "https://mavinxukr.github.io/azza.github.io/images/cake-slider2-min.png";
+const cakeSlider3 = "https://mavinxukr.github.io/azza.github.io/images/cake-slider3-min.png";
+const cakeSlider4 = "https://mavinxukr.github.io/azza.github.io/images/cake-slider4-min.png";
+const cakeSlider = "https://mavinxukr.github.io/azza.github.io/images/cake-slider-min.png";
+
   return (
        <>
-      <div className="careerBG cakesBG" style={{ backgroundImage: `url(${cakeImage})` }}>
+      <div className="careerBG cakesBG" style={{
+    backgroundImage: `url('https://mavinxukr.github.io/azza.github.io/images/cake-banner-mob-min.png')`
+  }}>
         <div className="containerBannerInfo">
           <div className="careerBannerInfo textCenter">
             <div className="line flex center">

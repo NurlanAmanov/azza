@@ -1,23 +1,28 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // Şəkilləri import edirik
-import cuisineBanner from '../../images/cuisineBanner-min.png';
-import cuisineBannerMob from '../../images/cuisineBannerMob-min.png';
-import newImg from '../../images/new-min.png';
-import noneImg from '../../images/noneImg-min.png';
-import nImage1 from '../../images/N-Image1-min.png';
-import nImage2 from '../../images/N-Image2-min.png';
-import cuisine1 from '../../images/cuisine1-min.png';
-import cuisine2 from '../../images/cuisine2-min.png';
-import cuisine3 from '../../images/cuisine3-min.png';
-import nImage from '../../images/N-Image-min.png';
+
 
 function Nationalcuisine() {
+  const cuisineBannerMob = "https://mavinxukr.github.io/azza.github.io/images/cuisineBannerMob-min.png";
+  const newImg = "https://mavinxukr.github.io/azza.github.io/images/new-min.png";
+  const noneImg = "https://mavinxukr.github.io/azza.github.io/images/noneImg-min.png";
+  const nImage1 = "https://mavinxukr.github.io/azza.github.io/images/N-Image1-min.png";
+  const nImage2 = "https://mavinxukr.github.io/azza.github.io/images/N-Image2-min.png";
+  const cuisine1 = "https://mavinxukr.github.io/azza.github.io/images/cuisine1-min.png";
+  const cuisine2 = "https://mavinxukr.github.io/azza.github.io/images/cuisine2-min.png";
+  const cuisine3 = "https://mavinxukr.github.io/azza.github.io/images/cuisine3-min.png";
+  const nImage = "https://mavinxukr.github.io/azza.github.io/images/N-Image-min.png";
+
   return (
     <>
       <div
         className="careerBG cuisineBG"
-        style={{ backgroundImage: `url(${cuisineBanner})` }}
+        style={{
+          backgroundImage:
+            "url('https://mavinxukr.github.io/azza.github.io/images/cuisineBanner%20Mob-min.png')",
+        }}
       >
         <div className="containerBannerInfo">
           <div className="careerBannerInfo textCenter">
@@ -188,16 +193,16 @@ function Nationalcuisine() {
           </div>
         </div>
       </div>
-     <div className="cuisineTab m-100 flex">
-  <Link to="/cakes" className="uppercase bold fs-12 mainColor">торты</Link>
-  <Link to="/nationalcuisine" className="uppercase bold fs-12 mainColor">печенье / эклеры / национальная кухня</Link>
-  <Link to="/pies" className="uppercase bold fs-12 mainColor">пироги/рулеты</Link>
-  <Link to="/bakery" className="uppercase bold fs-12 mainColor">выпечка</Link>
-  <Link to="/tea" className="uppercase bold fs-12 mainColor">чай</Link>
-  <Link to="/chocolate" className="uppercase bold fs-12 mainColor">шоколад</Link>
-  <Link to="/alcohol" className="uppercase bold fs-12 mainColor activeTab">алкоголь</Link>
-  <Link to="/fermazza" className="uppercase bold fs-12 mainColor">молочная продукция FERMAZZA</Link>
-</div>
+      <div className="cuisineTab m-100 flex">
+        <Link to="/cakes" className="uppercase bold fs-12 mainColor">торты</Link>
+        <Link to="/nationalcuisine" className="uppercase bold fs-12 mainColor">печенье / эклеры / национальная кухня</Link>
+        <Link to="/pies" className="uppercase bold fs-12 mainColor">пироги/рулеты</Link>
+        <Link to="/bakery" className="uppercase bold fs-12 mainColor">выпечка</Link>
+        <Link to="/tea" className="uppercase bold fs-12 mainColor">чай</Link>
+        <Link to="/chocolate" className="uppercase bold fs-12 mainColor">шоколад</Link>
+        <Link to="/alcohol" className="uppercase bold fs-12 mainColor activeTab">алкоголь</Link>
+        <Link to="/fermazza" className="uppercase bold fs-12 mainColor">молочная продукция FERMAZZA</Link>
+      </div>
     </>
   );
 }

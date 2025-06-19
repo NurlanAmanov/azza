@@ -53,7 +53,7 @@ function Footer() {
             </div>
             <div className="copyright">
                 <p className="white fs-10">© 2019 AZZA. All rights reserved.</p>
-                <p className="white fs-10">Developed by Learn&Solve 2020</p>
+              
             </div>
         </div>
         <div>
@@ -166,7 +166,7 @@ function Footer() {
     </div>
     <div className="copyright copyrightMob">
         <p className="white fs-10">© 2019 AZZA. All rights reserved.</p>
-        <p className="white fs-10">Developed by Learn&Solve 2020</p>
+  
     </div>
 </footer>
     
