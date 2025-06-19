@@ -50,7 +50,7 @@ function Home() {
     </div>
     <img className="mobImg" src="../images/carrerBG-min.png" alt=""/>
 </div>
-<div className="popup show">
+{/* <div className="popup show">
     <button  className="closePopup hidePopup">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M1 23L21.9524 1M1 1L23 23" stroke="#4B2613" strokeWidth="2"/>
@@ -64,7 +64,7 @@ function Home() {
             Закрыть
         </button>
     </div>
-</div>
+</div> */}
     </>
   )
 }
