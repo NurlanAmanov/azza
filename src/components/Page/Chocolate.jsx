@@ -211,9 +211,9 @@ function Chocolate() {
         <a href="#" className="uppercase bold fs-12 mainColor">печенье / эклеры / национальная кухня</a>
         <a href="#" className="uppercase bold fs-12 mainColor">пироги/рулеты</a>
         <a href="#" className="uppercase bold fs-12 mainColor">выпечка</a>
-        <a href="https://mavinxukr.github.io/azza.github.io/tea/" className="uppercase bold fs-12 mainColor">чай</a>
-        <a href="https://mavinxukr.github.io/azza.github.io/chocolate/" className="uppercase bold fs-12 mainColor activeTab">шоколад</a>
-        <a href="https://mavinxukr.github.io/azza.github.io/alcohol/" className="uppercase bold fs-12 mainColor">алкоголь</a>
+        <a href="https://azza-vert.vercel.app/tea/" className="uppercase bold fs-12 mainColor">чай</a>
+        <a href="https://azza-vert.vercel.app/chocolate/" className="uppercase bold fs-12 mainColor activeTab">шоколад</a>
+        <a href="https://azza-vert.vercel.app/alcohol/" className="uppercase bold fs-12 mainColor">алкоголь</a>
         <a href="#" className="uppercase bold fs-12 mainColor">молочная продукция FERMAZZA</a>
       </div>
     </>

@@ -5,15 +5,15 @@ import { Link } from 'react-router-dom';
 
 
 function Nationalcuisine() {
-  const cuisineBannerMob = "https://mavinxukr.github.io/azza.github.io/images/cuisineBannerMob-min.png";
-  const newImg = "https://mavinxukr.github.io/azza.github.io/images/new-min.png";
-  const noneImg = "https://mavinxukr.github.io/azza.github.io/images/noneImg-min.png";
-  const nImage1 = "https://mavinxukr.github.io/azza.github.io/images/N-Image1-min.png";
-  const nImage2 = "https://mavinxukr.github.io/azza.github.io/images/N-Image2-min.png";
-  const cuisine1 = "https://mavinxukr.github.io/azza.github.io/images/cuisine1-min.png";
-  const cuisine2 = "https://mavinxukr.github.io/azza.github.io/images/cuisine2-min.png";
-  const cuisine3 = "https://mavinxukr.github.io/azza.github.io/images/cuisine3-min.png";
-  const nImage = "https://mavinxukr.github.io/azza.github.io/images/N-Image-min.png";
+  const cuisineBannerMob = "https://azza-vert.vercel.app/images/cuisineBannerMob-min.png";
+  const newImg = "https://azza-vert.vercel.app/images/new-min.png";
+  const noneImg = "https://azza-vert.vercel.app/images/noneImg-min.png";
+  const nImage1 = "https://azza-vert.vercel.app/images/N-Image1-min.png";
+  const nImage2 = "https://azza-vert.vercel.app/images/N-Image2-min.png";
+  const cuisine1 = "https://azza-vert.vercel.app/images/cuisine1-min.png";
+  const cuisine2 = "https://azza-vert.vercel.app/images/cuisine2-min.png";
+  const cuisine3 = "https://azza-vert.vercel.app/images/cuisine3-min.png";
+  const nImage = "https://azza-vert.vercel.app/images/N-Image-min.png";
 
   return (
     <>
@@ -21,7 +21,7 @@ function Nationalcuisine() {
         className="careerBG cuisineBG"
         style={{
           backgroundImage:
-            "url('https://mavinxukr.github.io/azza.github.io/images/cuisineBanner%20Mob-min.png')",
+            "url('https://azza-vert.vercel.app/images/cuisineBanner%20Mob-min.png')",
         }}
       >
         <div className="containerBannerInfo">

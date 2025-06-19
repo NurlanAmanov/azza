@@ -1,24 +1,24 @@
 import React from 'react'
 
 function Tortlar() {
-const cakebanner = "https://mavinxukr.github.io/azza.github.io/images/cake-banner-mob-min.png";
-const cake1 = "https://mavinxukr.github.io/azza.github.io/images/cake-1-min.png";
-const cake2 = "https://mavinxukr.github.io/azza.github.io/images/cake-2-min.png";
-const cake3 = "https://mavinxukr.github.io/azza.github.io/images/cake-3-min.png";
-const cake4 = "https://mavinxukr.github.io/azza.github.io/images/cake-4-min.png";
-const cake5 = "https://mavinxukr.github.io/azza.github.io/images/cake-5-min.png";
-const cake6 = "https://mavinxukr.github.io/azza.github.io/images/cake-6-min.png";
-const cake7 = "https://mavinxukr.github.io/azza.github.io/images/cake-7-min.png";
-const cakeSlider1 = "https://mavinxukr.github.io/azza.github.io/images/cake-slider1-min.png";
-const cakeSlider2 = "https://mavinxukr.github.io/azza.github.io/images/cake-slider2-min.png";
-const cakeSlider3 = "https://mavinxukr.github.io/azza.github.io/images/cake-slider3-min.png";
-const cakeSlider4 = "https://mavinxukr.github.io/azza.github.io/images/cake-slider4-min.png";
-const cakeSlider = "https://mavinxukr.github.io/azza.github.io/images/cake-slider-min.png";
+const cakebanner = "https://azza-vert.vercel.app/images/cake-banner-mob-min.png";
+const cake1 = "https://azza-vert.vercel.app/images/cake-1-min.png";
+const cake2 = "https://azza-vert.vercel.app/images/cake-2-min.png";
+const cake3 = "https://azza-vert.vercel.app/images/cake-3-min.png";
+const cake4 = "https://azza-vert.vercel.app/images/cake-4-min.png";
+const cake5 = "https://azza-vert.vercel.app/images/cake-5-min.png";
+const cake6 = "https://azza-vert.vercel.app/images/cake-6-min.png";
+const cake7 = "https://azza-vert.vercel.app/images/cake-7-min.png";
+const cakeSlider1 = "https://azza-vert.vercel.app/images/cake-slider1-min.png";
+const cakeSlider2 = "https://azza-vert.vercel.app/images/cake-slider2-min.png";
+const cakeSlider3 = "https://azza-vert.vercel.app/images/cake-slider3-min.png";
+const cakeSlider4 = "https://azza-vert.vercel.app/images/cake-slider4-min.png";
+const cakeSlider = "https://azza-vert.vercel.app/images/cake-slider-min.png";
 
   return (
        <>
       <div className="careerBG cakesBG" style={{
-    backgroundImage: `url('https://mavinxukr.github.io/azza.github.io/images/cake-banner-mob-min.png')`
+    backgroundImage: `url('https://azza-vert.vercel.app/images/cake-banner-mob-min.png')`
   }}>
         <div className="containerBannerInfo">
           <div className="careerBannerInfo textCenter">

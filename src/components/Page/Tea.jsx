@@ -6,17 +6,17 @@ import { Link } from 'react-router-dom';
 
 function Tea() {
 
-  const teaBanner = "https://mavinxukr.github.io/azza.github.io/images/teaBanner-min.png";
-const teaBannerMob = "https://mavinxukr.github.io/azza.github.io/images/teaBannerMob-min.png";
-const t = "https://mavinxukr.github.io/azza.github.io/images/t.png";
-const t1 = "https://mavinxukr.github.io/azza.github.io/images/t1.png";
-const t2 = "https://mavinxukr.github.io/azza.github.io/images/t2.png";
-const t3 = "https://mavinxukr.github.io/azza.github.io/images/t3.png";
-const tl = "https://mavinxukr.github.io/azza.github.io/images/tl.png";
-const tl1 = "https://mavinxukr.github.io/azza.github.io/images/tl1.png";
-const tl2 = "https://mavinxukr.github.io/azza.github.io/images/tl2.png";
-const tl3 = "https://mavinxukr.github.io/azza.github.io/images/tl3.png";
-const vectorB = "https://mavinxukr.github.io/azza.github.io/images/Vector-b.png";
+  const teaBanner = "https://azza-vert.vercel.app/images/teaBanner-min.png";
+const teaBannerMob = "https://azza-vert.vercel.app/images/teaBannerMob-min.png";
+const t = "https://azza-vert.vercel.app/images/t.png";
+const t1 = "https://azza-vert.vercel.app/images/t1.png";
+const t2 = "https://azza-vert.vercel.app/images/t2.png";
+const t3 = "https://azza-vert.vercel.app/images/t3.png";
+const tl = "https://azza-vert.vercel.app/images/tl.png";
+const tl1 = "https://azza-vert.vercel.app/images/tl1.png";
+const tl2 = "https://azza-vert.vercel.app/images/tl2.png";
+const tl3 = "https://azza-vert.vercel.app/images/tl3.png";
+const vectorB = "https://azza-vert.vercel.app/images/Vector-b.png";
   return (
     <>
       <div className="careerBG teaBG" style={{ backgroundImage: `url(${teaBanner})` }}>

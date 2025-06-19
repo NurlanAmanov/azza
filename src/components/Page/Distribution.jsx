@@ -6,15 +6,15 @@ import React from 'react';
 
 function Distribution() {
 
-  const distributionMob = "https://mavinxukr.github.io/azza.github.io/images/distributionMob-min.png";
-const darkImg = "https://mavinxukr.github.io/azza.github.io/images/dark-min.png";
-const distributionImg = "https://mavinxukr.github.io/azza.github.io/images/distributionImg-min.png";
-const mobBg = "https://mavinxukr.github.io/azza.github.io/images/mob-bg-min.png";
-const mobBg1 = "https://mavinxukr.github.io/azza.github.io/images/mob-bg-1-min.png";
-const gImage = "https://mavinxukr.github.io/azza.github.io/images/G-Image-min.png";
-const gImage1 = "https://mavinxukr.github.io/azza.github.io/images/G-Image (1)-min.png";
-const gImage3 = "https://mavinxukr.github.io/azza.github.io/images/G-Image (3)-min.png";
-const imageCarousel = "https://mavinxukr.github.io/azza.github.io/images/ImageCarousel-min.png";
+  const distributionMob = "https://azza-vert.vercel.app/images/distributionMob-min.png";
+const darkImg = "https://azza-vert.vercel.app/images/dark-min.png";
+const distributionImg = "https://azza-vert.vercel.app/images/distributionImg-min.png";
+const mobBg = "https://azza-vert.vercel.app/images/mob-bg-min.png";
+const mobBg1 = "https://azza-vert.vercel.app/images/mob-bg-1-min.png";
+const gImage = "https://azza-vert.vercel.app/images/G-Image-min.png";
+const gImage1 = "https://azza-vert.vercel.app/images/G-Image (1)-min.png";
+const gImage3 = "https://azza-vert.vercel.app/images/G-Image (3)-min.png";
+const imageCarousel = "https://azza-vert.vercel.app/images/ImageCarousel-min.png";
 
   return (
     <>
