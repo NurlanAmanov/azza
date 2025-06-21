@@ -28,7 +28,7 @@ function Career() {
               Мы готовы предложить интересную работу для целеустремленных людей. Начало работы у нас -это не только работа в конкретной должности, это работа в компании, которая создает условия для вашего развития и реализации ваших способностей.
             </p>
             <button
-              onClick={() => window.location.href = 'https://azza-vert.vercel.app/questionnaire/'}
+              onClick={() => window.location.href = 'https://mavinxukr.github.io/azza.github.io/questionnaire/'}
               className="uppercase bold fs-12 btnQuestionnaire w-600"
             >
               Заполнить анкету
@@ -86,7 +86,7 @@ function Career() {
 
       <div className="textCenter mt-50" data-aos="fade-up">
         <button
-          onClick={() => window.location.href = 'https://azza-vert.vercel.app/questionnaire/'}
+          onClick={() => window.location.href = 'https://mavinxukr.github.io/azza.github.io/questionnaire/'}
           className="uppercase bold fs-12 btnQuestionnaire w-600"
         >
           Заполнить анкету

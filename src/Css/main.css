@@ -145,6 +145,7 @@ img {
     text-transform: uppercase;
     font-family: montserrat, sans-serif;
     font-weight: bold;
+    text-align: center;
 }
 
 .mt-50 {
@@ -293,6 +294,11 @@ img {
 .headerSocial {
     width: 30px;
     margin-left: 10px;
+}
+
+.headerSocial i {
+    color: #4B2613;
+    font-size: 20px;
 }
 
 .banner {
@@ -1265,9 +1271,18 @@ select {
 }
 
 .newItemBlock {
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap; /* Məhsulların bir neçə sətirdə sıralanmasını təmin edir */
+    gap: 20px; /* Sütunlar və sətirlər arasında boşluq */
+    padding: 30px;
+    margin-top: 50px;
 }
+
+.newItem {
+    flex: 1 1 30%; /* Hər məhsul üçün genişlik təyin edirik, hər biri 3 sütun olacaq */
+    box-sizing: border-box; /* Kənarları daxil etmək üçün */
+}
+
 
 .w-600 {
     font-weight: 600;
@@ -1655,9 +1670,11 @@ select {
     z-index: 99;
     opacity: 0;
     transition: all .3s;
+    cursor: pointer;
 }
 
 .cuisineItems .newItem:hover .cuisineLink {
+
     opacity: 1;
     transition: all .3s;
 }

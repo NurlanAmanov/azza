@@ -1,19 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import products from '../../js/data'; 
 // Şəkilləri import edirik
 
 
 function Nationalcuisine() {
-  const cuisineBannerMob = "https://azza-vert.vercel.app/images/cuisineBannerMob-min.png";
-  const newImg = "https://azza-vert.vercel.app/images/new-min.png";
-  const noneImg = "https://azza-vert.vercel.app/images/noneImg-min.png";
-  const nImage1 = "https://azza-vert.vercel.app/images/N-Image1-min.png";
-  const nImage2 = "https://azza-vert.vercel.app/images/N-Image2-min.png";
-  const cuisine1 = "https://azza-vert.vercel.app/images/cuisine1-min.png";
-  const cuisine2 = "https://azza-vert.vercel.app/images/cuisine2-min.png";
-  const cuisine3 = "https://azza-vert.vercel.app/images/cuisine3-min.png";
-  const nImage = "https://azza-vert.vercel.app/images/N-Image-min.png";
+  const cuisineBannerMob = "https://mavinxukr.github.io/azza.github.io/images/cuisineBannerMob-min.png";
+  const newImg = "https://mavinxukr.github.io/azza.github.io/images/new-min.png";
+  const noneImg = "https://mavinxukr.github.io/azza.github.io/images/noneImg-min.png";
+  const nImage1 = "https://mavinxukr.github.io/azza.github.io/images/N-Image1-min.png";
+  const nImage2 = "https://mavinxukr.github.io/azza.github.io/images/N-Image2-min.png";
+  const cuisine1 = "https://mavinxukr.github.io/azza.github.io/images/cuisine1-min.png";
+  const cuisine2 = "https://mavinxukr.github.io/azza.github.io/images/cuisine2-min.png";
+  const cuisine3 = "https://mavinxukr.github.io/azza.github.io/images/cuisine3-min.png";
+  const nImage = "https://mavinxukr.github.io/azza.github.io/images/N-Image-min.png";
 
   return (
     <>
@@ -21,7 +21,7 @@ function Nationalcuisine() {
         className="careerBG cuisineBG"
         style={{
           backgroundImage:
-            "url('https://azza-vert.vercel.app/images/cuisineBanner%20Mob-min.png')",
+            "url('https://mavinxukr.github.io/azza.github.io/images/cuisineBanner%20Mob-min.png')",
         }}
       >
         <div className="containerBannerInfo">
@@ -46,152 +46,22 @@ function Nationalcuisine() {
         В наших цехах мы изготавливаем самую разнообразную продукцию кондитерских изделий:
       </h2>
       <div className="lastBlock cuisineItems">
-        <div className="container flex center newItemBlock">
-          <div className="newItem" data-aos="fade-up">
-            <div className="scaleImage">
-              <a href="#" className="cuisineLink mainColor fs-10 w-600 uppercase">
-                Подробнее
-              </a>
-              <img src={newImg} alt="" />
-            </div>
-            <p className="type uppercase textCenter fs-10 w-600">Торт</p>
-            <p className="newItem-name textCenter fs-15 bold">
-              <a href="#">Абшерон</a>
-            </p>
+      <div className="container flex center newItemBlock">
+      {products.map((product) => (
+        <div className="newItem" data-aos="fade-up" key={product.id}>
+          <div className="scaleImage">
+            <a href="#" className="cuisineLink mainColor fs-10 w-600 uppercase">
+              Подробнее
+            </a>
+            <img src={product.image} alt={product.title} />
           </div>
-          <div className="newItem" data-aos="fade-up">
-            <div className="scaleImage">
-              <a href="#" className="cuisineLink mainColor fs-10 w-600 uppercase">
-                Подробнее
-              </a>
-              <img src={noneImg} alt="" />
-            </div>
-            <p className="type uppercase textCenter fs-10 w-600">Торт</p>
-            <p className="newItem-name textCenter fs-15 bold">
-              <a href="#">Профитроль</a>
-            </p>
-          </div>
-          <div className="newItem" data-aos="fade-up">
-            <div className="scaleImage">
-              <a href="#" className="cuisineLink mainColor fs-10 w-600 uppercase">
-                Подробнее
-              </a>
-              <img src={nImage1} alt="" />
-            </div>
-            <p className="type uppercase textCenter fs-10 w-600">Торт</p>
-            <p className="newItem-name textCenter fs-15 bold">
-              <a href="#">Тирамису</a>
-            </p>
-          </div>
-          <div className="newItem" data-aos="fade-up">
-            <div className="scaleImage">
-              <a href="#" className="cuisineLink mainColor fs-10 w-600 uppercase">
-                Подробнее
-              </a>
-              <img src={nImage2} alt="" />
-            </div>
-            <p className="type uppercase textCenter fs-10">Торт</p>
-            <p className="newItem-name textCenter fs-15 bold">
-              <a href="#">Микс берри</a>
-            </p>
-          </div>
-          <div className="newItem" data-aos="fade-up">
-            <div className="scaleImage">
-              <a href="#" className="cuisineLink mainColor fs-10 w-600 uppercase">
-                Подробнее
-              </a>
-              <img src={cuisine1} alt="" />
-            </div>
-            <p className="type uppercase textCenter fs-10 w-600">Печенье </p>
-            <p className="newItem-name textCenter fs-15 bold">
-              <a href="#">Макаронс</a>
-            </p>
-          </div>
-          <div className="newItem" data-aos="fade-up">
-            <div className="scaleImage">
-              <a href="#" className="cuisineLink mainColor fs-10 w-600 uppercase">
-                Подробнее
-              </a>
-              <img src={cuisine2} alt="" />
-            </div>
-            <p className="type uppercase textCenter fs-10 w-600">Печенье </p>
-            <p className="newItem-name textCenter fs-15 bold">
-              <a href="#">Миндальное с какао</a>
-            </p>
-          </div>
-          <div className="newItem" data-aos="fade-up">
-            <div className="scaleImage">
-              <a href="#" className="cuisineLink mainColor fs-10 w-600 uppercase">
-                Подробнее
-              </a>
-              <img src={cuisine3} alt="" />
-            </div>
-            <p className="type uppercase textCenter fs-10 w-600">Печенье </p>
-            <p className="newItem-name textCenter fs-15 bold">
-              <a href="#">Ореховое</a>
-            </p>
-          </div>
-          <div className="newItem" data-aos="fade-up">
-            <div className="scaleImage">
-              <a href="#" className="cuisineLink mainColor fs-10 w-600 uppercase">
-                Подробнее
-              </a>
-              <img src={nImage} alt="" />
-            </div>
-            <p className="type uppercase textCenter fs-10 w-600">Печенье </p>
-            <p className="newItem-name textCenter fs-15 bold">
-              <a href="#">Корица</a>
-            </p>
-          </div>
-          <div className="newItem" data-aos="fade-up">
-            <div className="scaleImage">
-              <a href="#" className="cuisineLink mainColor fs-10 w-600 uppercase">
-                Подробнее
-              </a>
-              <img src={nImage2} alt="" />
-            </div>
-            <p className="type uppercase textCenter fs-10 w-600">Пирог</p>
-            <p className="newItem-name textCenter fs-15 bold">
-              <a href="#">Клубничный</a>
-            </p>
-          </div>
-          <div className="newItem" data-aos="fade-up">
-            <div className="scaleImage">
-              <a href="#" className="cuisineLink mainColor fs-10 w-600 uppercase">
-                Подробнее
-              </a>
-              <img src={nImage1} alt="" />
-            </div>
-            <p className="type uppercase textCenter fs-10 w-600">Пирог</p>
-            <p className="newItem-name textCenter fs-15 bold">
-              <a href="#">Apple Crumble</a>
-            </p>
-          </div>
-          <div className="newItem" data-aos="fade-up">
-            <div className="scaleImage">
-              <a href="#" className="cuisineLink mainColor fs-10 w-600 uppercase">
-                Подробнее
-              </a>
-              <img src={nImage} alt="" />
-            </div>
-            <p className="type uppercase textCenter fs-10 w-600">Пирог</p>
-            <p className="newItem-name textCenter fs-15 bold">
-              <a href="#">Ананасовый</a>
-            </p>
-          </div>
-          <div className="newItem" data-aos="fade-up">
-            <div className="scaleImage">
-              <a href="#" className="cuisineLink mainColor fs-10 w-600 uppercase">
-                Подробнее
-              </a>
-              <img src={newImg} alt="" />
-            </div>
-            <p className="type uppercase textCenter fs-10">Пирог</p>
-            <p className="newItem-name textCenter fs-15 bold">
-              <a href="#">Яблочный с творогом</a>
-            </p>
-          </div>
+          <p className="type uppercase textCenter fs-10 w-600">{product.category}</p>
+          <p className="newItem-name textCenter fs-15 bold">
+            <a href="#">{product.title}</a>
+          </p>
         </div>
+      ))}
+    </div>
       </div>
       <div className="cuisineTab m-100 flex">
         <Link to="/cakes" className="uppercase bold fs-12 mainColor">торты</Link>

@@ -29,11 +29,11 @@ function Home() {
 
     <div className="containerBannerInfo">
         <div className="careerBannerInfo textCenter">
-            <div className="line flex center">
+            {/* <div className="line flex center">
                 <p className="left"></p>
                 <span className="darkCircle"></span>
                 <p className="right"></p>
-            </div>
+            </div> */}
             <h1 className="uppercase bold fs-40">КАРЬЕРА В AZZA</h1>
             <div className="line flex center">
                 <p className="left"></p>

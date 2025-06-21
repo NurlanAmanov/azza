@@ -280,6 +280,7 @@
 }
 
 @media screen and (max-width: 768px) {
+   
     #mapMob,
     .flexItemCarousel,
     .carouselBottom,
@@ -773,6 +774,7 @@
 
     .newItemBlock {
         justify-content: space-between;
+        margin-top: 50px;
     }
 
     .footerFlex {
@@ -894,5 +896,15 @@
 @media screen and (max-width: 352px) {
     .footerStore {
         width: 125px;
+    }
+}
+.mobilemenu {
+    display: none;
+}
+
+/* Ekran 750px-dən kiçik olduqda mobil menyu göstərilsin */
+@media (max-width: 750px) {
+    .mobilemenu {
+        display: block; /* Mobil ölçüdə göstərmək üçün block təyin edirik */
     }
 }

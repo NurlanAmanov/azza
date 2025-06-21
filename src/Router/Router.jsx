@@ -10,6 +10,13 @@ import Tea from '../components/Page/Tea'
 import Chocolate from '../components/Page/Chocolate'
 import Nationalcuisine from '../components/Page/Nationalcuisine'
 import Tortlar from '../components/Page/Tortlar'
+import Rulet from '../components/Page/Rulet'
+import Torts from '../components/Page/Tort-desert'
+import Corek from '../components/Page/Corek'
+import Cook from '../components/Page/Cook'
+import Milli from '../components/Page/Milli'
+import Piroq from '../components/Page/Piroq'
+import Ekler from '../components/Page/Ekler'
 
 
 
@@ -30,6 +37,13 @@ function Router() {
                <Route path='/nationalcuisine' element ={<Nationalcuisine/>}/>
                <Route path='/tea' element ={<Tea/>}/>
                <Route path='/chocolate' element ={<Chocolate/>}/>
+               <Route path='/rulet' element ={<Rulet/>}/>
+               <Route path='/tortlar' element ={<Torts/>}/>
+               <Route path='/corek' element ={<Corek/>}/>
+               <Route path='/cook' element ={<Cook/>}/>
+               <Route path='/milli' element ={<Milli/>}/>
+               <Route path='/Piroq' element ={<Piroq/>}/>
+               <Route path='/ekler' element ={<Ekler/>}/>
         
                 </Route>
             </Routes>
